@@ -1,0 +1,1634 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahad Hafeez | Computer Science Student & Aspiring Software Developer</title>
+    <meta name="description" content="Personal portfolio of Ahad Hafeez, Computer Science student at University of Central Punjab and aspiring software developer." />
+    <meta property="og:title" content="Ahad Hafeez | Computer Science Student & Aspiring Software Developer" />
+    <meta property="og:description" content="Computer Science student at University of Central Punjab passionate about C++, SQL, and software solutions." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+
+    <!-- Ambient Glowing Background Elements -->
+    <div class="ambient-glow-purple" style="top: 10%; left: 50%; transform: translateX(-50%);"></div>
+    <div class="ambient-glow-cyan" style="top: 30%; right: 5%;"></div>
+    <div class="ambient-glow-purple" style="top: 65%; left: 5%;"></div>
+
+    <!-- =========================================================================
+         SECTION 1: NAVIGATION BAR
+         ========================================================================= -->
+    <header>
+      <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+        <div class="container">
+          <!-- Personal Logo / Text -->
+          <a class="navbar-brand navbar-brand-logo" href="#home">
+            <span>AHAD</span>
+            <span class="dot"></span>
+          </a>
+
+          <!-- Mobile Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNav" aria-controls="portfolioNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list fs-4"></i>
+          </button>
+
+          <!-- Nav Links & CTA -->
+          <div class="collapse navbar-collapse" id="portfolioNav">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-link-custom active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#certificates">Certificates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#contact">Contact</a>
+              </li>
+            </ul>
+
+            <!-- Prominent Action Button -->
+            <div class="d-flex align-items-center gap-2 mt-3 mt-lg-0">
+              <a href="#contact" class="btn-primary-purple text-uppercase" style="font-size: 0.8rem; letter-spacing: 0.05em;">
+                <span>Let's Talk</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- =========================================================================
+         SECTION 2: HERO / HOME
+         ========================================================================= -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          
+          <!-- Left Column (Hero Content) -->
+          <div class="col-lg-7">
+            <div class="reveal-on-scroll">
+              <!-- Small Introduction -->
+              <div class="d-inline-flex align-items-center gap-2 mb-3">
+                <span class="px-2.5 py-1 rounded bg-secondary border border-subtle text-cyan font-mono" style="font-size: 0.75rem; letter-spacing: 0.1em; font-weight: 700;">
+                  HELLO, I'M
+                </span>
+                <span class="text-subtle">·</span>
+                <span class="text-muted-custom" style="font-size: 0.8rem;">
+                  <i class="bi bi-geo-alt text-purple me-1"></i>Lahore, Pakistan
+                </span>
+              </div>
+
+              <!-- Main Heading -->
+              <h1 class="display-3 fw-bold mb-3">
+                Ahad <span class="gradient-text">Hafeez</span>
+              </h1>
+
+              <!-- Professional Title -->
+              <h2 class="h4 fw-normal text-muted-custom mb-4">
+                <span class="text-purple fw-semibold">Computer Science Student</span>
+                <span class="text-subtle mx-2">|</span>
+                <span class="text-cyan">Aspiring Software Developer</span>
+              </h2>
+
+              <!-- Description -->
+              <p class="lead fs-6 text-muted-custom mb-4" style="max-width: 620px; line-height: 1.75;">
+                I'm a Computer Science student at the University of Central Punjab, passionate about coding, problem-solving, and building practical software solutions. I enjoy learning new technologies and turning ideas into useful projects.
+              </p>
+
+              <!-- Buttons -->
+              <div class="d-flex flex-wrap align-items-center gap-3 mb-4">
+                <a href="#projects" class="btn-primary-purple">
+                  <span>View My Projects</span>
+                  <i class="bi bi-arrow-down"></i>
+                </a>
+                <button type="button" class="btn-secondary-dark" data-bs-toggle="modal" data-bs-target="#cvModal">
+                  <i class="bi bi-file-earmark-text text-purple"></i>
+                  <span>Download CV</span>
+                </button>
+              </div>
+
+              <!-- Social Icons -->
+              <div class="d-flex align-items-center gap-3 pt-2">
+                <span class="text-muted-custom" style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Connect:</span>
+                <a href="https://linkedin.com/in/ahadhafeez" target="_blank" rel="noopener noreferrer" class="btn-icon-square" title="LinkedIn Profile" aria-label="LinkedIn">
+                  <i class="bi bi-linkedin text-cyan"></i>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon-square" title="GitHub Profile" aria-label="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+                <button type="button" class="btn-icon-square" id="copyHeroEmailBtn" title="Copy Email: ahadhafeez01@gmail.com" aria-label="Copy Email">
+                  <i class="bi bi-envelope text-purple"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column (Profile Visual Frame) -->
+          <div class="col-lg-5">
+            <div class="hero-profile-container reveal-on-scroll">
+              
+              <!-- Floating Badge 1: Top Left -->
+              <div class="floating-badge floating-badge-top-left">
+                <div class="badge-icon bg-purple-subtle text-purple" style="background-color: rgba(139, 92, 246, 0.2);">
+                  <i class="bi bi-mortarboard-fill"></i>
+                </div>
+                <div>
+                  <div class="text-purple fw-bold" style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em;">Degree Program</div>
+                  <div class="text-main fw-bold" style="font-size: 0.8rem;">BS Computer Science Student</div>
+                </div>
+              </div>
+
+              <!-- Main Card Frame -->
+              <div class="hero-profile-card">
+                <div class="hero-profile-inner">
+                  
+                  <!-- Top inner status -->
+                  <div class="d-flex justify-content-between align-items-center mb-4 font-mono" style="font-size: 0.75rem;">
+                    <span class="text-muted-custom">
+                      <i class="bi bi-terminal text-cyan me-1"></i>ahad_hafeez.cpp
+                    </span>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle" style="font-size: 0.7rem;">
+                      <i class="bi bi-check-circle me-1"></i>Active Builder
+                    </span>
+                  </div>
+
+                  <!-- Stylized Avatar Graphic -->
+                  <div class="avatar-ring">
+                    <div class="avatar-circle">
+                      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="35" r="20" fill="url(#heroAvatarHead)" />
+                        <path d="M18 84C18 67.4 32.3 54 50 54C67.7 54 82 67.4 82 84V88H18V84Z" fill="url(#heroAvatarBody)" />
+                        <defs>
+                          <linearGradient id="heroAvatarHead" x1="30" y1="15" x2="70" y2="55" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F8FAFC" />
+                            <stop offset="1" stop-color="#94A3B8" />
+                          </linearGradient>
+                          <linearGradient id="heroAvatarBody" x1="18" y1="54" x2="82" y2="88" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#8B5CF6" />
+                            <stop offset="1" stop-color="#1E293B" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <h3 class="h5 fw-bold text-main mb-1">Ahad Hafeez</h3>
+                  <p class="text-muted-custom mb-3" style="font-size: 0.85rem;">University of Central Punjab, Lahore</p>
+
+                  <!-- Mini Code Badge -->
+                  <div class="p-2 rounded bg-main border border-subtle font-mono text-muted-custom" style="font-size: 0.75rem;">
+                    <span class="text-purple">cout</span> &lt;&lt; <span class="text-cyan">"Aspiring Developer"</span> &lt;&lt; <span class="text-purple">endl;</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating Badge 2: Bottom Right -->
+              <div class="floating-badge floating-badge-bottom-right">
+                <div class="badge-icon bg-cyan-subtle text-cyan" style="background-color: rgba(56, 189, 248, 0.2);">
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <div>
+                  <div class="text-cyan fw-bold" style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em;">Academic Merit</div>
+                  <div class="text-main fw-bold" style="font-size: 0.8rem;">CGPA: 3.31 (4th Sem)</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Metric Proof Strip (Full-width row below split) -->
+        <div class="hero-stats-row reveal-on-scroll">
+          <div class="row g-4 text-center text-sm-start">
+            <div class="col-6 col-md-3">
+              <div class="text-muted-custom" style="font-size: 0.8rem;">Institution</div>
+              <div class="h5 fw-bold text-main mb-0">UCP Lahore</div>
+              <div class="text-purple" style="font-size: 0.75rem;">BSCS · July 2024–Present</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="text-muted-custom" style="font-size: 0.8rem;">Grade Standing</div>
+              <div class="h5 fw-bold text-main mb-0">3.31 CGPA</div>
+              <div class="text-cyan" style="font-size: 0.75rem;">4th Semester Current</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="text-muted-custom" style="font-size: 0.8rem;">Project Portfolio</div>
+              <div class="h5 fw-bold text-main mb-0">4+ Core Works</div>
+              <div class="text-purple" style="font-size: 0.75rem;">C++, MySQL & Web</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="text-muted-custom" style="font-size: 0.8rem;">Certifications</div>
+              <div class="h5 fw-bold text-main mb-0">3 Credentials</div>
+              <div class="text-cyan" style="font-size: 0.75rem;">Coursera Verified</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 3: ABOUT ME
+         ========================================================================= -->
+    <section id="about" class="py-5 my-md-4">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="row mb-5 reveal-on-scroll">
+          <div class="col-lg-8">
+            <span class="section-kicker">Background & Profile</span>
+            <h2 class="display-5 fw-bold mb-3">About Me</h2>
+            <p class="lead text-muted-custom" style="font-size: 1.05rem; line-height: 1.8;">
+              I'm Ahad Hafeez, a Computer Science student at the University of Central Punjab, Lahore. I have a strong interest in software development, programming, and database systems. Through academic and personal projects, I have gained practical experience in C++, Object-Oriented Programming, Data Structures, MySQL, HTML, CSS, and basic JavaScript. I continuously work on improving my technical skills and exploring new technologies.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3 Information Cards -->
+        <div class="row g-4 mb-5">
+          <!-- Card 1 -->
+          <div class="col-md-4 reveal-on-scroll">
+            <div class="custom-card d-flex flex-column justify-content-between">
+              <div>
+                <div class="card-icon-box text-purple">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="text-purple fw-bold mb-1" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">01 · Core Academic</div>
+                <h3 class="h5 fw-bold text-main mb-2">Computer Science Student</h3>
+                <p class="text-muted-custom small mb-0">
+                  Deepening theoretical and practical foundations in Data Structures, Object-Oriented Design, and Database Management at UCP Lahore.
+                </p>
+              </div>
+              <div class="pt-3 mt-4 border-top border-subtle d-flex justify-content-between text-subtle" style="font-size: 0.75rem;">
+                <span>Domain</span>
+                <span class="text-muted-custom font-medium">BSCS Undergrad</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4 reveal-on-scroll">
+            <div class="custom-card d-flex flex-column justify-content-between">
+              <div>
+                <div class="card-icon-box text-cyan">
+                  <i class="bi bi-cpu"></i>
+                </div>
+                <div class="text-cyan fw-bold mb-1" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">02 · Algorithmic Mindset</div>
+                <h3 class="h5 fw-bold text-main mb-2">Problem Solver</h3>
+                <p class="text-muted-custom small mb-0">
+                  Approaching challenges methodically by breaking them down into modular workflows, optimizing algorithm efficiency, and crafting clean C++ logic.
+                </p>
+              </div>
+              <div class="pt-3 mt-4 border-top border-subtle d-flex justify-content-between text-subtle" style="font-size: 0.75rem;">
+                <span>Focus</span>
+                <span class="text-muted-custom font-medium">DSA & Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4 reveal-on-scroll">
+            <div class="custom-card d-flex flex-column justify-content-between">
+              <div>
+                <div class="card-icon-box text-purple">
+                  <i class="bi bi-arrow-repeat"></i>
+                </div>
+                <div class="text-purple fw-bold mb-1" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">03 · Skill Expansion</div>
+                <h3 class="h5 fw-bold text-main mb-2">Continuous Learner</h3>
+                <p class="text-muted-custom small mb-0">
+                  Actively expanding technical competencies beyond the syllabus, exploring relational database administration, web fundamentals, and modern developer tooling.
+                </p>
+              </div>
+              <div class="pt-3 mt-4 border-top border-subtle d-flex justify-content-between text-subtle" style="font-size: 0.75rem;">
+                <span>Pace</span>
+                <span class="text-muted-custom font-medium">Active Pursuits</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Callout Strip -->
+        <div class="p-4 p-md-5 rounded-4 bg-secondary border border-subtle reveal-on-scroll">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-5">
+              <span class="section-kicker-cyan section-kicker">University of Central Punjab</span>
+              <h3 class="h4 fw-bold text-main mb-2">Rigorous Academic Foundation</h3>
+              <p class="text-muted-custom small mb-3">
+                Balancing theoretical coursework in algorithmic complexity and computer systems with hands-on semester software projects.
+              </p>
+              <div class="d-flex flex-wrap gap-3 text-muted-custom" style="font-size: 0.8rem;">
+                <span><i class="bi bi-check-circle-fill text-cyan me-1"></i>CGPA: 3.31</span>
+                <span>·</span>
+                <span><i class="bi bi-check-circle-fill text-purple me-1"></i>4th Semester</span>
+                <span>·</span>
+                <span>Lahore, PK</span>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="row g-3">
+                <div class="col-sm-4">
+                  <div class="p-3 rounded-3 bg-main border border-subtle h-100">
+                    <i class="bi bi-code-slash text-purple fs-5 mb-2 d-block"></i>
+                    <h4 class="h6 fw-bold text-main mb-1">OOP in C++</h4>
+                    <p class="text-subtle mb-0" style="font-size: 0.75rem;">Classes, inheritance, polymorphism, and memory management</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="p-3 rounded-3 bg-main border border-subtle h-100">
+                    <i class="bi bi-diagram-3 text-cyan fs-5 mb-2 d-block"></i>
+                    <h4 class="h6 fw-bold text-main mb-1">Data Structures</h4>
+                    <p class="text-subtle mb-0" style="font-size: 0.75rem;">Stacks, queues, linked lists, trees & searching algorithms</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="p-3 rounded-3 bg-main border border-subtle h-100">
+                    <i class="bi bi-database text-purple fs-5 mb-2 d-block"></i>
+                    <h4 class="h6 fw-bold text-main mb-1">Relational SQL</h4>
+                    <p class="text-subtle mb-0" style="font-size: 0.75rem;">Schema normalization, CRUD operations & MySQL engine</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 4: EDUCATION
+         ========================================================================= -->
+    <section id="education" class="py-5 bg-card-dark">
+      <div class="container py-md-4">
+        
+        <!-- Section Header -->
+        <div class="row mb-5 reveal-on-scroll">
+          <div class="col-lg-8">
+            <span class="section-kicker-cyan section-kicker">Academic Journey</span>
+            <h2 class="display-5 fw-bold mb-3">Education</h2>
+            <p class="text-muted-custom">
+              Consistent academic record demonstrating rigorous mathematics, analytical sciences, and foundational computing excellence.
+            </p>
+          </div>
+        </div>
+
+        <!-- Vertical Timeline -->
+        <div class="timeline-container">
+          
+          <!-- Education 1: UCP -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-node"></div>
+            <div class="custom-card">
+              <div class="d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3 mb-3">
+                <div>
+                  <span class="text-purple fw-bold mb-1 d-block" style="font-size: 0.75rem; text-transform: uppercase;">Undergraduate Degree</span>
+                  <h3 class="h4 fw-bold text-main mb-1">Bachelor of Science in Computer Science (BSCS)</h3>
+                  <div class="text-cyan fw-semibold">University of Central Punjab, Lahore</div>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge bg-secondary border border-subtle text-muted-custom font-mono">
+                    <i class="bi bi-calendar3 me-1"></i>July 2024 – Present
+                  </span>
+                  <span class="badge bg-purple-subtle border border-purple-subtle text-purple fw-bold" style="background-color: rgba(139, 92, 246, 0.15);">
+                    <i class="bi bi-award me-1"></i>CGPA: 3.31
+                  </span>
+                  <span class="badge bg-cyan-subtle border border-cyan-subtle text-cyan fw-bold" style="background-color: rgba(56, 189, 248, 0.15);">
+                    4th Semester
+                  </span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                Core coursework spanning Object-Oriented Programming (OOP), Data Structures & Algorithms (DSA), Database Systems (DBMS), and Computer Organization & Assembly Language.
+              </p>
+
+              <div class="pt-3 border-top border-subtle">
+                <span class="text-subtle fw-semibold d-block mb-2" style="font-size: 0.75rem; text-transform: uppercase;">Academic Focus:</span>
+                <div class="row g-2 text-muted-custom" style="font-size: 0.8rem;">
+                  <div class="col-md-6">
+                    <i class="bi bi-check2 text-purple me-1"></i>Cumulative CGPA 3.31 with consistent semester performance
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-check2 text-purple me-1"></i>Hands-on academic projects in C++ and MySQL relational databases
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education 2: Punjab College -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-node"></div>
+            <div class="custom-card">
+              <div class="d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3 mb-3">
+                <div>
+                  <span class="text-purple fw-bold mb-1 d-block" style="font-size: 0.75rem; text-transform: uppercase;">Higher Secondary</span>
+                  <h3 class="h4 fw-bold text-main mb-1">Intermediate in Sciences (FSc)</h3>
+                  <div class="text-cyan fw-semibold">Punjab College, Allahabad</div>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge bg-secondary border border-subtle text-muted-custom font-mono">
+                    <i class="bi bi-calendar3 me-1"></i>October 2022 – May 2024
+                  </span>
+                  <span class="badge bg-purple-subtle border border-purple-subtle text-purple fw-bold" style="background-color: rgba(139, 92, 246, 0.15);">
+                    <i class="bi bi-award me-1"></i>Marks: 898 / 1200 (75%)
+                  </span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                Rigorous scientific and mathematical curriculum fostering analytical problem-solving in calculus, algebra, mechanics, and computational fundamentals.
+              </p>
+
+              <div class="pt-3 border-top border-subtle">
+                <span class="text-subtle fw-semibold d-block mb-2" style="font-size: 0.75rem; text-transform: uppercase;">Academic Focus:</span>
+                <div class="row g-2 text-muted-custom" style="font-size: 0.8rem;">
+                  <div class="col-md-6">
+                    <i class="bi bi-check2 text-purple me-1"></i>Scored 898 out of 1200 marks (75% first division)
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-check2 text-purple me-1"></i>Formed mathematical reasoning that powers algorithmic thinking
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education 3: Hanif Memorial High School -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-node"></div>
+            <div class="custom-card">
+              <div class="d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3 mb-3">
+                <div>
+                  <span class="text-purple fw-bold mb-1 d-block" style="font-size: 0.75rem; text-transform: uppercase;">Secondary School</span>
+                  <h3 class="h4 fw-bold text-main mb-1">Matriculation (Science)</h3>
+                  <div class="text-cyan fw-semibold">Hanif Memorial High School, Talwandi</div>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge bg-secondary border border-subtle text-muted-custom font-mono">
+                    <i class="bi bi-calendar3 me-1"></i>2019 – 2021
+                  </span>
+                  <span class="badge bg-purple-subtle border border-purple-subtle text-purple fw-bold" style="background-color: rgba(139, 92, 246, 0.15);">
+                    <i class="bi bi-trophy me-1"></i>Marks: 1090 / 1100 (99.1%)
+                  </span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                Completed secondary education with top honors and near-perfect marks, reflecting high academic discipline, intellectual consistency, and a scientific foundation.
+              </p>
+
+              <div class="pt-3 border-top border-subtle">
+                <span class="text-subtle fw-semibold d-block mb-2" style="font-size: 0.75rem; text-transform: uppercase;">Academic Focus:</span>
+                <div class="row g-2 text-muted-custom" style="font-size: 0.8rem;">
+                  <div class="col-md-6">
+                    <i class="bi bi-check2 text-purple me-1"></i>Distinguished academic record with 99.1% marks
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-check2 text-purple me-1"></i>Recognized with top school academic awards
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 5: TECHNICAL SKILLS
+         ========================================================================= -->
+    <section id="skills" class="py-5 my-md-4">
+      <div class="container">
+        
+        <!-- Section Header & Filter Tabs -->
+        <div class="row align-items-end mb-5 g-4 reveal-on-scroll">
+          <div class="col-lg-7">
+            <span class="section-kicker">Core Competencies</span>
+            <h2 class="display-5 fw-bold mb-3">Technical Skills</h2>
+            <p class="text-muted-custom mb-0">
+              Categorized technical competencies with clean visual indicators representing authentic academic and project experience.
+            </p>
+          </div>
+
+          <!-- Interactive Filter Tabs -->
+          <div class="col-lg-5 text-lg-end">
+            <div class="filter-tabs-wrapper">
+              <button type="button" class="filter-tab-btn active" data-skill-filter="all">All</button>
+              <button type="button" class="filter-tab-btn" data-skill-filter="programming">Programming</button>
+              <button type="button" class="filter-tab-btn" data-skill-filter="web">Web Dev</button>
+              <button type="button" class="filter-tab-btn" data-skill-filter="database">Database</button>
+              <button type="button" class="filter-tab-btn" data-skill-filter="systems">Systems & Tools</button>
+              <button type="button" class="filter-tab-btn" data-skill-filter="soft">Soft Skills</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Cards Grid -->
+        <div class="row g-4" id="skillsContainer">
+          
+          <!-- Category 1: Programming -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="programming">
+            <div class="custom-card reveal-on-scroll">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="card-icon-box text-purple mb-0">
+                  <i class="bi bi-terminal"></i>
+                </div>
+                <div>
+                  <h3 class="h5 fw-bold text-main mb-0">Programming</h3>
+                  <span class="text-subtle small">Compiled Languages</span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                Primary compiled language used for algorithmic problem solving, core computer science labs, and desktop data systems.
+              </p>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>C++</span>
+                  <span class="text-purple fw-semibold" style="font-size: 0.75rem;">Proficient</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">OOP, Pointers, Memory Management, STL & File Streams</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="web">
+            <div class="custom-card reveal-on-scroll">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="card-icon-box text-cyan mb-0">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <div>
+                  <h3 class="h5 fw-bold text-main mb-0">Web Development</h3>
+                  <span class="text-subtle small">Frontend Standards</span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                Constructing responsive, modern, and accessible user interfaces and web layouts.
+              </p>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>HTML5</span>
+                  <span class="text-cyan fw-semibold" style="font-size: 0.75rem;">Proficient</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">Semantic markup, document structure & accessibility</div>
+              </div>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>CSS3</span>
+                  <span class="text-cyan fw-semibold" style="font-size: 0.75rem;">Proficient</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">Flexbox, CSS Grid, media queries & custom animations</div>
+              </div>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>JavaScript</span>
+                  <span class="text-subtle fw-semibold" style="font-size: 0.75rem;">Basic</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">DOM manipulation, event listeners & form validation</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Database -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="database">
+            <div class="custom-card reveal-on-scroll">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="card-icon-box text-purple mb-0">
+                  <i class="bi bi-database"></i>
+                </div>
+                <div>
+                  <h3 class="h5 fw-bold text-main mb-0">Database</h3>
+                  <span class="text-subtle small">Relational Data Systems</span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                Designing normalized relational schemas, executing queries, and enforcing data integrity.
+              </p>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>SQL</span>
+                  <span class="text-purple fw-semibold" style="font-size: 0.75rem;">Proficient</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">DDL, DML, complex joins, nested queries & constraints</div>
+              </div>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>MySQL</span>
+                  <span class="text-purple fw-semibold" style="font-size: 0.75rem;">Proficient</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">Relational schema design, normalization (1NF-3NF) & CRUD</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Other Technologies -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="systems">
+            <div class="custom-card reveal-on-scroll">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="card-icon-box text-cyan mb-0">
+                  <i class="bi bi-layers"></i>
+                </div>
+                <div>
+                  <h3 class="h5 fw-bold text-main mb-0">Other Technologies</h3>
+                  <span class="text-subtle small">Systems & CMS</span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                CMS configuration, low-level hardware organization, and machine instruction principles.
+              </p>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>WordPress</span>
+                  <span class="text-cyan fw-semibold" style="font-size: 0.75rem;">Practical</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">Theme customization, responsive block layouts & publishing</div>
+              </div>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>Computer Organization</span>
+                  <span class="text-subtle fw-semibold" style="font-size: 0.75rem;">Academic</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">CPU architecture, memory hierarchy, bus interfaces & ALU</div>
+              </div>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>Assembly Language</span>
+                  <span class="text-subtle fw-semibold" style="font-size: 0.75rem;">Basic</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">Registers, memory addressing modes & low-level instructions</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 5: Soft Skills -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="soft">
+            <div class="custom-card reveal-on-scroll">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="card-icon-box text-purple mb-0">
+                  <i class="bi bi-people"></i>
+                </div>
+                <div>
+                  <h3 class="h5 fw-bold text-main mb-0">Soft Skills</h3>
+                  <span class="text-subtle small">Professional Attributes</span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                Essential interpersonal and cognitive capabilities that drive efficient teamwork and technical delivery.
+              </p>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>Problem Solving</span>
+                  <span class="text-purple fw-semibold" style="font-size: 0.75rem;">Core Strength</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">Deconstructing complex requirements and systematic debugging</div>
+              </div>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>Teamwork</span>
+                  <span class="text-purple fw-semibold" style="font-size: 0.75rem;">Collaborative</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">Academic group projects, pair programming & peer reviews</div>
+              </div>
+
+              <div class="skill-item-row">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold text-main"><i class="bi bi-check2 text-cyan me-1"></i>Critical Thinking</span>
+                  <span class="text-purple fw-semibold" style="font-size: 0.75rem;">Analytical</span>
+                </div>
+                <div class="text-muted-custom ps-3" style="font-size: 0.75rem;">Evaluating algorithm trade-offs and structural modularity</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 6: PROJECTS
+         ========================================================================= -->
+    <section id="projects" class="py-5 bg-card-dark">
+      <div class="container py-md-4">
+        
+        <!-- Section Header & Filter Tabs -->
+        <div class="row align-items-end mb-5 g-4 reveal-on-scroll">
+          <div class="col-lg-7">
+            <span class="section-kicker-cyan section-kicker">Portfolio Works</span>
+            <h2 class="display-5 fw-bold mb-3">Projects</h2>
+            <p class="text-muted-custom mb-0">
+              Practical software systems, database designs, and mobile prototypes developed through academic coursework and personal development.
+            </p>
+          </div>
+
+          <div class="col-lg-5 text-lg-end">
+            <div class="filter-tabs-wrapper">
+              <button type="button" class="filter-tab-btn active" data-project-filter="all">All Projects</button>
+              <button type="button" class="filter-tab-btn" data-project-filter="cpp">C++ & Systems</button>
+              <button type="button" class="filter-tab-btn" data-project-filter="database">Database</button>
+              <button type="button" class="filter-tab-btn" data-project-filter="web-mobile">Web & Mobile</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects Cards Grid -->
+        <div class="row g-4" id="projectsContainer">
+          
+          <!-- PROJECT 1: Fuel Pump Management System -->
+          <div class="col-lg-6 project-card-item" data-category="database cpp">
+            <div class="custom-card d-flex flex-column justify-content-between reveal-on-scroll">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="font-mono text-purple small fw-bold">PROJECT 01</span>
+                  <span class="badge bg-secondary border border-subtle text-cyan font-mono" style="font-size: 0.7rem;">Database System</span>
+                </div>
+
+                <h3 class="h4 fw-bold text-main mb-2">Fuel Pump Management System</h3>
+
+                <!-- Technology Tags (Unboxed clean text with separators) -->
+                <div class="d-flex flex-wrap align-items-center gap-2 mb-3 text-muted-custom" style="font-size: 0.8rem;">
+                  <span class="text-subtle font-medium">Tech:</span>
+                  <span class="text-purple font-mono">C++</span>
+                  <span class="text-subtle">·</span>
+                  <span class="text-purple font-mono">MySQL</span>
+                  <span class="text-subtle">·</span>
+                  <span class="text-purple font-mono">SQL Queries</span>
+                </div>
+
+                <p class="text-muted-custom small mb-4">
+                  Designed and developed a database-based Fuel Pump Management System as an academic project. Created database schemas and implemented CRUD operations using SQL queries.
+                </p>
+
+                <div class="p-3 rounded-3 bg-main border border-subtle mb-4">
+                  <span class="text-subtle small fw-semibold d-block mb-1">Key Features:</span>
+                  <div class="small text-muted-custom">
+                    <div><i class="bi bi-check2 text-cyan me-1"></i>Relational tables for fuel types, tanks, meters, and sales ledgers</div>
+                    <div><i class="bi bi-check2 text-cyan me-1"></i>Automated inventory calculation and real-time transaction updates</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-3 border-top border-subtle d-flex justify-content-between align-items-center flex-wrap gap-2">
+                <button type="button" class="btn btn-sm btn-secondary-dark px-3 py-1.5" data-project-modal="fuel-pump">
+                  <span>View Details</span>
+                  <i class="bi bi-arrow-right ms-1"></i>
+                </button>
+
+                <div class="d-flex gap-2">
+                  <button type="button" class="btn-icon-square btn-action-toast" data-toast-msg="Source repository for Fuel Pump Management System is maintained in academic lab git." title="Source Code">
+                    <i class="bi bi-github"></i>
+                  </button>
+                  <button type="button" class="btn-icon-square btn-action-toast" data-toast-msg="Demo prototype for Fuel Pump Management System is available during presentation sessions." title="Demo Details">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: Expiry Guard -->
+          <div class="col-lg-6 project-card-item" data-category="web-mobile">
+            <div class="custom-card d-flex flex-column justify-content-between reveal-on-scroll">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="font-mono text-purple small fw-bold">PROJECT 02</span>
+                  <span class="badge bg-secondary border border-subtle text-cyan font-mono" style="font-size: 0.7rem;">Mobile Prototype</span>
+                </div>
+
+                <h3 class="h4 fw-bold text-main mb-2">Expiry Guard</h3>
+
+                <!-- Technology Tags -->
+                <div class="d-flex flex-wrap align-items-center gap-2 mb-3 text-muted-custom" style="font-size: 0.8rem;">
+                  <span class="text-subtle font-medium">Tech:</span>
+                  <span class="text-purple font-mono">MIT App Inventor</span>
+                  <span class="text-subtle">·</span>
+                  <span class="text-purple font-mono">Mobile App</span>
+                  <span class="text-subtle">·</span>
+                  <span class="text-purple font-mono">Notification Logic</span>
+                </div>
+
+                <p class="text-muted-custom small mb-4">
+                  Developed a mobile application prototype to track product expiry dates and implemented reminder-based notifications to help users monitor product expiration.
+                </p>
+
+                <div class="p-3 rounded-3 bg-main border border-subtle mb-4">
+                  <span class="text-subtle small fw-semibold d-block mb-1">Key Features:</span>
+                  <div class="small text-muted-custom">
+                    <div><i class="bi bi-check2 text-cyan me-1"></i>Category shelves for groceries, medicines, and household products</div>
+                    <div><i class="bi bi-check2 text-cyan me-1"></i>Date calculation logic with proactive alert push notifications</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-3 border-top border-subtle d-flex justify-content-between align-items-center flex-wrap gap-2">
+                <button type="button" class="btn btn-sm btn-secondary-dark px-3 py-1.5" data-project-modal="expiry-guard">
+                  <span>View Details</span>
+                  <i class="bi bi-arrow-right ms-1"></i>
+                </button>
+
+                <div class="d-flex gap-2">
+                  <button type="button" class="btn-icon-square btn-action-toast" data-toast-msg="App Inventor project blocks and APK prototype available upon request." title="Source Code">
+                    <i class="bi bi-github"></i>
+                  </button>
+                  <button type="button" class="btn-icon-square btn-action-toast" data-toast-msg="Expiry Guard interactive walkthrough available in project documentation." title="Demo Details">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: C++ Academic Projects -->
+          <div class="col-lg-6 project-card-item" data-category="cpp">
+            <div class="custom-card d-flex flex-column justify-content-between reveal-on-scroll">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="font-mono text-purple small fw-bold">PROJECT 03</span>
+                  <span class="badge bg-secondary border border-subtle text-cyan font-mono" style="font-size: 0.7rem;">Systems & Algorithms</span>
+                </div>
+
+                <h3 class="h4 fw-bold text-main mb-2">C++ Academic Projects</h3>
+
+                <!-- Technology Tags -->
+                <div class="d-flex flex-wrap align-items-center gap-2 mb-3 text-muted-custom" style="font-size: 0.8rem;">
+                  <span class="text-subtle font-medium">Tech:</span>
+                  <span class="text-purple font-mono">C++</span>
+                  <span class="text-subtle">·</span>
+                  <span class="text-purple font-mono">OOP</span>
+                  <span class="text-subtle">·</span>
+                  <span class="text-purple font-mono">Data Structures</span>
+                </div>
+
+                <p class="text-muted-custom small mb-4">
+                  Developed academic programming projects including a Calculator, Student Management System, and Library Management System. Applied object-oriented programming concepts such as classes, inheritance, and encapsulation along with basic data structures.
+                </p>
+
+                <div class="p-3 rounded-3 bg-main border border-subtle mb-4">
+                  <span class="text-subtle small fw-semibold d-block mb-1">Key Features:</span>
+                  <div class="small text-muted-custom">
+                    <div><i class="bi bi-check2 text-cyan me-1"></i>Student & Library record management with binary file persistence</div>
+                    <div><i class="bi bi-check2 text-cyan me-1"></i>Implementation of core OOP principles and searching algorithms</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-3 border-top border-subtle d-flex justify-content-between align-items-center flex-wrap gap-2">
+                <button type="button" class="btn btn-sm btn-secondary-dark px-3 py-1.5" data-project-modal="cpp-academic">
+                  <span>View Details</span>
+                  <i class="bi bi-arrow-right ms-1"></i>
+                </button>
+
+                <div class="d-flex gap-2">
+                  <button type="button" class="btn-icon-square btn-action-toast" data-toast-msg="C++ console source code files (.cpp/.h) stored in university coursework repository." title="Source Code">
+                    <i class="bi bi-github"></i>
+                  </button>
+                  <button type="button" class="btn-icon-square btn-action-toast" data-toast-msg="Console CLI demonstrations executable on modern C++17/20 compilers." title="Demo Details">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: Personal Portfolio Website -->
+          <div class="col-lg-6 project-card-item" data-category="web-mobile">
+            <div class="custom-card d-flex flex-column justify-content-between reveal-on-scroll">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="font-mono text-purple small fw-bold">PROJECT 04</span>
+                  <span class="badge bg-secondary border border-subtle text-cyan font-mono" style="font-size: 0.7rem;">Web Showcase</span>
+                </div>
+
+                <h3 class="h4 fw-bold text-main mb-2">Personal Portfolio Website</h3>
+
+                <!-- Technology Tags -->
+                <div class="d-flex flex-wrap align-items-center gap-2 mb-3 text-muted-custom" style="font-size: 0.8rem;">
+                  <span class="text-subtle font-medium">Tech:</span>
+                  <span class="text-purple font-mono">WordPress</span>
+                  <span class="text-subtle">·</span>
+                  <span class="text-purple font-mono">Web Design</span>
+                  <span class="text-subtle">·</span>
+                  <span class="text-purple font-mono">Responsive UI</span>
+                </div>
+
+                <p class="text-muted-custom small mb-4">
+                  Created a personal portfolio website using WordPress to showcase personal information, educational background, skills, and projects.
+                </p>
+
+                <div class="p-3 rounded-3 bg-main border border-subtle mb-4">
+                  <span class="text-subtle small fw-semibold d-block mb-1">Key Features:</span>
+                  <div class="small text-muted-custom">
+                    <div><i class="bi bi-check2 text-cyan me-1"></i>Responsive page layout across mobile, tablet, and desktop viewports</div>
+                    <div><i class="bi bi-check2 text-cyan me-1"></i>Integrated contact forms and academic milestone presentations</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-3 border-top border-subtle d-flex justify-content-between align-items-center flex-wrap gap-2">
+                <button type="button" class="btn btn-sm btn-secondary-dark px-3 py-1.5" data-project-modal="wordpress-portfolio">
+                  <span>View Details</span>
+                  <i class="bi bi-arrow-right ms-1"></i>
+                </button>
+
+                <div class="d-flex gap-2">
+                  <button type="button" class="btn-icon-square btn-action-toast" data-toast-msg="WordPress configuration and layout archive preserved in personal portfolio staging." title="Source Code">
+                    <i class="bi bi-github"></i>
+                  </button>
+                  <button type="button" class="btn-icon-square btn-action-toast" data-toast-msg="Current single-page HTML5/CSS3/Bootstrap website represents the modern code-first portfolio evolution!" title="Live Demo">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 7: CERTIFICATIONS
+         ========================================================================= -->
+    <section id="certificates" class="py-5 my-md-4">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="row mb-5 reveal-on-scroll">
+          <div class="col-lg-8">
+            <span class="section-kicker">Professional Development</span>
+            <h2 class="display-5 fw-bold mb-3">Certifications</h2>
+            <p class="text-muted-custom mb-0">
+              Verified certifications completed on Coursera, enhancing version control workflows, web development foundations, and public presentation skills.
+            </p>
+          </div>
+        </div>
+
+        <!-- Certificate Cards -->
+        <div class="row g-4">
+          
+          <!-- Certificate 1 -->
+          <div class="col-md-4 reveal-on-scroll">
+            <div class="custom-card d-flex flex-column justify-content-between">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <div class="card-icon-box text-cyan mb-0">
+                    <i class="bi bi-award"></i>
+                  </div>
+                  <span class="badge bg-secondary border border-subtle text-muted-custom">Coursera</span>
+                </div>
+
+                <div class="text-purple fw-bold mb-1" style="font-size: 0.75rem; text-transform: uppercase;">Credential 01</div>
+                <h3 class="h5 fw-bold text-main mb-2">Public Speaking with Canva</h3>
+                <p class="text-muted-custom small mb-4">
+                  Focused on visual storytelling, structuring engaging presentations, and effectively communicating technical concepts to diverse audiences.
+                </p>
+
+                <div class="pt-3 border-top border-subtle">
+                  <span class="text-subtle small fw-semibold d-block mb-1">Skills Covered:</span>
+                  <div class="text-muted-custom small">
+                    Presentation Design · Visual Communication · Storytelling
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-3 mt-4 border-top border-subtle d-flex justify-content-between align-items-center text-success small">
+                <span><i class="bi bi-patch-check-fill me-1"></i>Verified Certificate</span>
+                <span class="text-subtle font-mono" style="font-size: 0.75rem;">Coursera</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 2 -->
+          <div class="col-md-4 reveal-on-scroll">
+            <div class="custom-card d-flex flex-column justify-content-between">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <div class="card-icon-box text-purple mb-0">
+                    <i class="bi bi-git"></i>
+                  </div>
+                  <span class="badge bg-secondary border border-subtle text-muted-custom">Coursera</span>
+                </div>
+
+                <div class="text-purple fw-bold mb-1" style="font-size: 0.75rem; text-transform: uppercase;">Credential 02</div>
+                <h3 class="h5 fw-bold text-main mb-2">Getting Started with Git and GitHub</h3>
+                <p class="text-muted-custom small mb-4">
+                  Mastered essential distributed version control workflows, commit tracking, branching, merge conflict resolution, and collaborative pull requests.
+                </p>
+
+                <div class="pt-3 border-top border-subtle">
+                  <span class="text-subtle small fw-semibold d-block mb-1">Skills Covered:</span>
+                  <div class="text-muted-custom small">
+                    Git CLI · GitHub Repositories · Branching & Merging · Pull Requests
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-3 mt-4 border-top border-subtle d-flex justify-content-between align-items-center text-success small">
+                <span><i class="bi bi-patch-check-fill me-1"></i>Verified Certificate</span>
+                <span class="text-subtle font-mono" style="font-size: 0.75rem;">Coursera</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 3 -->
+          <div class="col-md-4 reveal-on-scroll">
+            <div class="custom-card d-flex flex-column justify-content-between">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <div class="card-icon-box text-cyan mb-0">
+                    <i class="bi bi-code-square"></i>
+                  </div>
+                  <span class="badge bg-secondary border border-subtle text-muted-custom">Coursera</span>
+                </div>
+
+                <div class="text-purple fw-bold mb-1" style="font-size: 0.75rem; text-transform: uppercase;">Credential 03</div>
+                <h3 class="h5 fw-bold text-main mb-2">Introduction to HTML, CSS & JavaScript</h3>
+                <p class="text-muted-custom small mb-4">
+                  Foundational modern web curriculum covering semantic HTML markup, responsive CSS styling with Flexbox/Grid, and basic client-side JavaScript.
+                </p>
+
+                <div class="pt-3 border-top border-subtle">
+                  <span class="text-subtle small fw-semibold d-block mb-1">Skills Covered:</span>
+                  <div class="text-muted-custom small">
+                    Semantic HTML · CSS Layouts · Responsive Design · DOM Logic
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-3 mt-4 border-top border-subtle d-flex justify-content-between align-items-center text-success small">
+                <span><i class="bi bi-patch-check-fill me-1"></i>Verified Certificate</span>
+                <span class="text-subtle font-mono" style="font-size: 0.75rem;">Coursera</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 8: LANGUAGES & INTERESTS
+         ========================================================================= -->
+    <section id="languages" class="py-5 bg-card-dark">
+      <div class="container py-md-4">
+        
+        <!-- Section Header -->
+        <div class="row mb-5 reveal-on-scroll">
+          <div class="col-lg-8">
+            <span class="section-kicker-cyan section-kicker">Personal Dimensions</span>
+            <h2 class="display-5 fw-bold mb-3">Languages & Interests</h2>
+            <p class="text-muted-custom mb-0">
+              Multilingual communication capabilities balanced with teamwork-oriented sports and technical software exploration.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          
+          <!-- Column 1: Languages -->
+          <div class="col-lg-5 reveal-on-scroll">
+            <div class="custom-card h-100">
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="card-icon-box text-purple mb-0">
+                  <i class="bi bi-translate"></i>
+                </div>
+                <div>
+                  <h3 class="h5 fw-bold text-main mb-0">Languages</h3>
+                  <span class="text-subtle small">Linguistic Competencies</span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                Effective communicator able to articulate technical concepts and collaborate across regional and international settings.
+              </p>
+
+              <div class="skill-item-row d-flex justify-content-between align-items-center mb-3">
+                <div>
+                  <div class="fw-bold text-main">Urdu</div>
+                  <div class="text-subtle" style="font-size: 0.75rem;">National Language</div>
+                </div>
+                <span class="badge bg-purple-subtle text-purple border border-purple-subtle px-3 py-1.5 fw-semibold" style="background-color: rgba(139, 92, 246, 0.15);">
+                  Native
+                </span>
+              </div>
+
+              <div class="skill-item-row d-flex justify-content-between align-items-center mb-3">
+                <div>
+                  <div class="fw-bold text-main">Punjabi</div>
+                  <div class="text-subtle" style="font-size: 0.75rem;">Regional Native</div>
+                </div>
+                <span class="badge bg-purple-subtle text-purple border border-purple-subtle px-3 py-1.5 fw-semibold" style="background-color: rgba(139, 92, 246, 0.15);">
+                  Native
+                </span>
+              </div>
+
+              <div class="skill-item-row d-flex justify-content-between align-items-center mb-4">
+                <div>
+                  <div class="fw-bold text-main">English</div>
+                  <div class="text-subtle" style="font-size: 0.75rem;">Academic & Professional</div>
+                </div>
+                <span class="badge bg-cyan-subtle text-cyan border border-cyan-subtle px-3 py-1.5 fw-semibold" style="background-color: rgba(56, 189, 248, 0.15);">
+                  Professional
+                </span>
+              </div>
+
+              <div class="p-3 rounded-3 bg-main border border-subtle text-muted-custom" style="font-size: 0.8rem;">
+                <i class="bi bi-check-circle text-cyan me-1.5"></i>
+                Proficient in academic writing, software documentation, and technical discourse.
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Interests -->
+          <div class="col-lg-7 reveal-on-scroll">
+            <div class="custom-card h-100">
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="card-icon-box text-cyan mb-0">
+                  <i class="bi bi-heart"></i>
+                </div>
+                <div>
+                  <h3 class="h5 fw-bold text-main mb-0">Interests & Pursuits</h3>
+                  <span class="text-subtle small">Passions & Extracurriculars</span>
+                </div>
+              </div>
+
+              <p class="text-muted-custom small mb-4">
+                Outdoor sports and strategic games provide discipline, fast decision-making, and high-energy endurance that complement software engineering.
+              </p>
+
+              <div class="row g-3">
+                <!-- Interest 1: Coding -->
+                <div class="col-sm-6">
+                  <div class="p-3 rounded-3 bg-main border border-subtle h-100">
+                    <i class="bi bi-laptop text-purple fs-4 mb-2 d-block"></i>
+                    <h4 class="h6 fw-bold text-main mb-1">Coding & Software</h4>
+                    <p class="text-subtle mb-0" style="font-size: 0.75rem;">
+                      Exploring algorithms, building tools, and experimenting with new tech stacks.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Interest 2: Cricket -->
+                <div class="col-sm-6">
+                  <div class="p-3 rounded-3 bg-main border border-subtle h-100">
+                    <i class="bi bi-trophy text-warning fs-4 mb-2 d-block"></i>
+                    <h4 class="h6 fw-bold text-main mb-1">Cricket</h4>
+                    <p class="text-subtle mb-0" style="font-size: 0.75rem;">
+                      Team strategy, pressure management, athletic endurance, and sportsmanship.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Interest 3: Badminton -->
+                <div class="col-sm-6">
+                  <div class="p-3 rounded-3 bg-main border border-subtle h-100">
+                    <i class="bi bi-activity text-cyan fs-4 mb-2 d-block"></i>
+                    <h4 class="h6 fw-bold text-main mb-1">Badminton</h4>
+                    <p class="text-subtle mb-0" style="font-size: 0.75rem;">
+                      High-intensity rallies, rapid reflexes, agility, and competitive stamina.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Interest 4: Football -->
+                <div class="col-sm-6">
+                  <div class="p-3 rounded-3 bg-main border border-subtle h-100">
+                    <i class="bi bi-shield-check text-success fs-4 mb-2 d-block"></i>
+                    <h4 class="h6 fw-bold text-main mb-1">Football</h4>
+                    <p class="text-subtle mb-0" style="font-size: 0.75rem;">
+                      Tactical coordination, passing chemistry, positioning, and outdoor fitness.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 9: CONTACT ME
+         ========================================================================= -->
+    <section id="contact" class="py-5 my-md-4">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="row mb-5 reveal-on-scroll">
+          <div class="col-lg-8">
+            <span class="section-kicker">Get In Touch</span>
+            <h2 class="display-5 fw-bold mb-3">Let's Connect</h2>
+            <p class="lead text-muted-custom" style="font-size: 1.05rem;">
+              I'm always interested in connecting with people, learning new things, and exploring opportunities in technology and software development.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          
+          <!-- Left Column: Contact Cards -->
+          <div class="col-lg-5 reveal-on-scroll">
+            <div class="d-flex flex-column gap-3">
+              
+              <!-- Email Card -->
+              <div class="custom-card p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <div class="card-icon-box text-purple mb-0" style="width: 40px; height: 40px;">
+                    <i class="bi bi-envelope"></i>
+                  </div>
+                  <button type="button" class="btn btn-sm btn-secondary-dark px-2 py-1" id="copyContactEmailBtn" title="Copy email">
+                    <i class="bi bi-clipboard me-1"></i>Copy
+                  </button>
+                </div>
+                <div class="text-subtle small mb-1">Email Address</div>
+                <div class="h6 fw-bold text-main font-mono mb-2">ahadhafeez01@gmail.com</div>
+                <a href="mailto:ahadhafeez01@gmail.com" class="text-purple small fw-semibold">
+                  Email Me <i class="bi bi-arrow-up-right ms-1"></i>
+                </a>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="custom-card p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <div class="card-icon-box text-cyan mb-0" style="width: 40px; height: 40px;">
+                    <i class="bi bi-telephone"></i>
+                  </div>
+                  <button type="button" class="btn btn-sm btn-secondary-dark px-2 py-1" id="copyContactPhoneBtn" title="Copy phone">
+                    <i class="bi bi-clipboard me-1"></i>Copy
+                  </button>
+                </div>
+                <div class="text-subtle small mb-1">Mobile / WhatsApp</div>
+                <div class="h6 fw-bold text-main font-mono mb-2">+92 311 0684590</div>
+                <a href="tel:+923110684590" class="text-cyan small fw-semibold">
+                  Call / Message <i class="bi bi-arrow-up-right ms-1"></i>
+                </a>
+              </div>
+
+              <!-- LinkedIn Card -->
+              <div class="custom-card p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <div class="card-icon-box text-cyan mb-0" style="width: 40px; height: 40px;">
+                    <i class="bi bi-linkedin"></i>
+                  </div>
+                  <span class="badge bg-secondary border border-subtle text-muted-custom">Networking</span>
+                </div>
+                <div class="text-subtle small mb-1">LinkedIn Profile</div>
+                <div class="h6 fw-bold text-main font-mono mb-2">linkedin.com/in/ahadhafeez</div>
+                <a href="https://linkedin.com/in/ahadhafeez" target="_blank" rel="noopener noreferrer" class="text-cyan small fw-semibold">
+                  Connect on LinkedIn <i class="bi bi-arrow-up-right ms-1"></i>
+                </a>
+              </div>
+
+              <!-- Location Banner -->
+              <div class="p-3 rounded-3 bg-secondary border border-subtle text-muted-custom small d-flex align-items-center gap-2">
+                <i class="bi bi-geo-alt-fill text-purple fs-5"></i>
+                <span>Based in <strong>Lahore, Pakistan</strong>. Open to software internships, project inquiries, and collaborative learning.</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Message Form -->
+          <div class="col-lg-7 reveal-on-scroll">
+            <div class="custom-card p-4 p-md-5">
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="card-icon-box text-purple mb-0">
+                  <i class="bi bi-chat-dots"></i>
+                </div>
+                <div>
+                  <h3 class="h5 fw-bold text-main mb-0">Send a Message</h3>
+                  <span class="text-subtle small">Get in touch directly via form</span>
+                </div>
+              </div>
+
+              <form id="contactForm" novalidate>
+                <div class="row g-3 mb-3">
+                  <div class="col-sm-6">
+                    <label for="userName" class="form-label small text-muted-custom mb-1">Your Full Name <span class="text-purple">*</span></label>
+                    <input type="text" class="form-control form-control-custom" id="userName" placeholder="e.g. Ali Raza" required>
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="userEmail" class="form-label small text-muted-custom mb-1">Email Address <span class="text-purple">*</span></label>
+                    <input type="email" class="form-control form-control-custom" id="userEmail" placeholder="ali@example.com" required>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="userSubject" class="form-label small text-muted-custom mb-1">Subject</label>
+                  <input type="text" class="form-control form-control-custom" id="userSubject" placeholder="Internship Opportunity / Project Inquiry">
+                </div>
+
+                <div class="mb-4">
+                  <label for="userMessage" class="form-label small text-muted-custom mb-1">Message <span class="text-purple">*</span></label>
+                  <textarea class="form-control form-control-custom" id="userMessage" rows="4" placeholder="Hello Ahad, I'd like to discuss..." required></textarea>
+                </div>
+
+                <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+                  <div class="d-flex gap-2">
+                    <button type="submit" class="btn-primary-purple">
+                      <span>Send Message</span>
+                      <i class="bi bi-send"></i>
+                    </button>
+                    <a id="directMailtoLink" href="mailto:ahadhafeez01@gmail.com" class="btn-secondary-dark">
+                      <span>Open Mail App</span>
+                    </a>
+                  </div>
+                  <span class="text-subtle small">Typically responds within 24 hours</span>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 10: FOOTER
+         ========================================================================= -->
+    <footer class="py-5 bg-card-dark border-top border-subtle">
+      <div class="container">
+        <div class="row align-items-center justify-content-between g-4 pb-4 border-bottom border-subtle">
+          
+          <!-- Brand & About -->
+          <div class="col-md-5 text-center text-md-start">
+            <a class="navbar-brand navbar-brand-logo mb-2 d-inline-block" href="#home">
+              <span>AHAD</span>
+              <span class="dot"></span>
+            </a>
+            <p class="text-muted-custom small mb-0" style="max-width: 380px;">
+              Computer Science student at University of Central Punjab, Lahore. Passionate about software development, C++, MySQL, and modern systems.
+            </p>
+          </div>
+
+          <!-- Quick Navigation Links -->
+          <div class="col-md-4 text-center">
+            <div class="d-flex flex-wrap justify-content-center gap-3 small text-muted-custom">
+              <a href="#home" class="text-muted-custom">Home</a>
+              <a href="#about" class="text-muted-custom">About</a>
+              <a href="#education" class="text-muted-custom">Education</a>
+              <a href="#skills" class="text-muted-custom">Skills</a>
+              <a href="#projects" class="text-muted-custom">Projects</a>
+              <a href="#certificates" class="text-muted-custom">Certificates</a>
+              <a href="#contact" class="text-muted-custom">Contact</a>
+            </div>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="col-md-3 text-center text-md-end">
+            <div class="d-inline-flex gap-2">
+              <a href="https://linkedin.com/in/ahadhafeez" target="_blank" rel="noopener noreferrer" class="btn-icon-square" title="LinkedIn Profile" aria-label="LinkedIn">
+                <i class="bi bi-linkedin text-cyan"></i>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon-square" title="GitHub" aria-label="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="mailto:ahadhafeez01@gmail.com" class="btn-icon-square" title="Email Ahad" aria-label="Email">
+                <i class="bi bi-envelope text-purple"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright Row -->
+        <div class="row pt-4 text-center text-sm-start align-items-center">
+          <div class="col-sm-6 text-main fw-semibold small mb-2 mb-sm-0">
+            Designed & Built by Ahad Hafeez
+          </div>
+          <div class="col-sm-6 text-sm-end text-subtle small">
+            © 2026 Ahad Hafeez. All rights reserved.
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Back to top" title="Scroll to top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification Element -->
+    <div class="toast-container-custom">
+      <div id="actionToast" class="toast-custom" role="alert" aria-live="assertive" aria-atomic="true">
+        <i class="bi bi-check-circle-fill text-purple fs-5"></i>
+        <div class="toast-message flex-grow-1 small" id="toastMessage">Notification message</div>
+        <button type="button" class="btn-close btn-close-white small ms-2" id="toastCloseBtn" aria-label="Close"></button>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         MODALS
+         ========================================================================= -->
+
+    <!-- Modal 1: Curriculum Vitae (CV) Modal -->
+    <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content modal-content-custom">
+          
+          <div class="modal-header modal-header-custom justify-content-between">
+            <h5 class="modal-title font-heading fw-bold" id="cvModalLabel">
+              <i class="bi bi-file-earmark-person text-purple me-2"></i>Curriculum Vitae · Ahad Hafeez
+            </h5>
+            <div class="d-flex align-items-center gap-2">
+              <button type="button" class="btn btn-sm btn-secondary-dark px-2.5 py-1" id="copyCvTextBtn">
+                <i class="bi bi-clipboard me-1"></i>Copy Text
+              </button>
+              <button type="button" class="btn btn-sm btn-primary-purple px-2.5 py-1" id="printCvBtn">
+                <i class="bi bi-printer me-1"></i>Print / Save PDF
+              </button>
+              <button type="button" class="btn-close btn-close-white ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+
+          <div class="modal-body modal-body-custom" id="cvPrintArea">
+            <!-- CV Document View -->
+            <div class="border-bottom border-subtle pb-3 mb-4">
+              <h2 class="h3 fw-bold text-main mb-1">Ahad Hafeez</h2>
+              <div class="text-purple fw-semibold small mb-2">Computer Science Student | Aspiring Software Developer</div>
+              <div class="text-muted-custom small font-mono">
+                Email: ahadhafeez01@gmail.com | Phone: +92 311 0684590 | Location: Lahore, Pakistan<br>
+                LinkedIn: linkedin.com/in/ahadhafeez | University: University of Central Punjab, Lahore
+              </div>
+            </div>
+
+            <!-- CV Education -->
+            <div class="mb-4">
+              <h6 class="text-cyan fw-bold text-uppercase border-bottom border-subtle pb-1 mb-2 font-heading" style="font-size: 0.75rem;">Education</h6>
+              <div class="mb-2">
+                <div class="d-flex justify-content-between fw-bold text-main small">
+                  <span>University of Central Punjab, Lahore</span>
+                  <span class="text-subtle font-mono">July 2024 – Present</span>
+                </div>
+                <div class="text-purple small">Bachelor of Science in Computer Science (BSCS) — 4th Semester (CGPA: 3.31)</div>
+              </div>
+              <div class="mb-2">
+                <div class="d-flex justify-content-between fw-bold text-main small">
+                  <span>Punjab College, Allahabad</span>
+                  <span class="text-subtle font-mono">Oct 2022 – May 2024</span>
+                </div>
+                <div class="text-purple small">Intermediate in Sciences (FSc) — Marks: 898 / 1200 (75%)</div>
+              </div>
+              <div>
+                <div class="d-flex justify-content-between fw-bold text-main small">
+                  <span>Hanif Memorial High School, Talwandi</span>
+                  <span class="text-subtle font-mono">2019 – 2021</span>
+                </div>
+                <div class="text-purple small">Matriculation (Science) — Marks: 1090 / 1100 (99.1%)</div>
+              </div>
+            </div>
+
+            <!-- CV Technical Skills -->
+            <div class="mb-4">
+              <h6 class="text-cyan fw-bold text-uppercase border-bottom border-subtle pb-1 mb-2 font-heading" style="font-size: 0.75rem;">Technical Skills</h6>
+              <div class="text-muted-custom small">
+                <div><strong class="text-main">Programming:</strong> C++ (OOP, Pointers, Memory Management, DSA, STL)</div>
+                <div><strong class="text-main">Web Development:</strong> HTML5, CSS3, JavaScript (Basic)</div>
+                <div><strong class="text-main">Database:</strong> SQL, MySQL (Schema Design, Normalization, Queries, CRUD)</div>
+                <div><strong class="text-main">Systems & Other:</strong> WordPress, Computer Organization, Assembly Language (Basic)</div>
+                <div><strong class="text-main">Soft Skills:</strong> Problem Solving, Teamwork, Critical Thinking</div>
+              </div>
+            </div>
+
+            <!-- CV Projects -->
+            <div class="mb-4">
+              <h6 class="text-cyan fw-bold text-uppercase border-bottom border-subtle pb-1 mb-2 font-heading" style="font-size: 0.75rem;">Projects</h6>
+              <div class="mb-2 small">
+                <div class="fw-bold text-main">Fuel Pump Management System <span class="text-purple font-mono" style="font-size: 0.7rem;">(C++, MySQL, SQL)</span></div>
+                <p class="text-muted-custom mb-1">Database-based Fuel Pump Management System with normalized schemas and SQL CRUD operations.</p>
+              </div>
+              <div class="mb-2 small">
+                <div class="fw-bold text-main">Expiry Guard <span class="text-purple font-mono" style="font-size: 0.7rem;">(MIT App Inventor)</span></div>
+                <p class="text-muted-custom mb-1">Mobile application prototype to monitor product expiration with reminder push notifications.</p>
+              </div>
+              <div class="mb-2 small">
+                <div class="fw-bold text-main">C++ Academic Projects <span class="text-purple font-mono" style="font-size: 0.7rem;">(C++, OOP, DSA)</span></div>
+                <p class="text-muted-custom mb-1">Calculator, Student Management System, and Library Management System implementing classes, inheritance, and data structures.</p>
+              </div>
+              <div class="small">
+                <div class="fw-bold text-main">Personal Portfolio Website <span class="text-purple font-mono" style="font-size: 0.7rem;">(WordPress)</span></div>
+                <p class="text-muted-custom mb-0">Responsive personal portfolio website showcasing academic profile and projects.</p>
+              </div>
+            </div>
+
+            <!-- CV Certifications -->
+            <div class="mb-3">
+              <h6 class="text-cyan fw-bold text-uppercase border-bottom border-subtle pb-1 mb-2 font-heading" style="font-size: 0.75rem;">Certifications</h6>
+              <ul class="text-muted-custom small mb-0 ps-3">
+                <li>Public Speaking with Canva – Coursera</li>
+                <li>Getting Started with Git and GitHub – Coursera</li>
+                <li>Introduction to HTML, CSS & JavaScript – Coursera</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="modal-footer modal-footer-custom">
+            <button type="button" class="btn btn-sm btn-secondary-dark" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2: Dynamic Project Details Modal -->
+    <div class="modal fade" id="projectDetailsModal" tabindex="-1" aria-labelledby="projectDetailsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content modal-content-custom">
+          
+          <div class="modal-header modal-header-custom justify-content-between">
+            <div>
+              <span class="text-cyan font-mono small d-block" id="modalProjectCategory">Category</span>
+              <h5 class="modal-title font-heading fw-bold" id="modalProjectTitle">Project Title</h5>
+            </div>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body modal-body-custom">
+            <div class="d-flex flex-wrap align-items-center gap-2 mb-3 text-muted-custom" id="modalProjectTech">
+              <!-- Tech tags populated by JS -->
+            </div>
+
+            <h6 class="text-purple fw-bold text-uppercase mb-2 font-heading" style="font-size: 0.75rem;">Overview & Architecture</h6>
+            <p class="text-muted-custom small mb-3" id="modalProjectDesc"></p>
+
+            <div class="p-3 rounded-3 bg-main border border-subtle font-mono text-muted-custom mb-3" style="font-size: 0.75rem;">
+              <span class="text-cyan fw-bold d-block mb-1"><i class="bi bi-diagram-2 me-1"></i>System Flow:</span>
+              <span id="modalProjectArchitecture">Flow diagram description</span>
+            </div>
+
+            <h6 class="text-purple fw-bold text-uppercase mb-2 font-heading" style="font-size: 0.75rem;">Implemented Highlights</h6>
+            <div class="small text-muted-custom" id="modalProjectFeatures">
+              <!-- Feature list populated by JS -->
+            </div>
+          </div>
+
+          <div class="modal-footer modal-footer-custom">
+            <button type="button" class="btn btn-sm btn-secondary-dark" data-bs-dismiss="modal">Close Details</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap 5 Bundle JS (Includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Vanilla JavaScript for interactivity -->
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
